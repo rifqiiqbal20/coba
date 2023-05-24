@@ -1,0 +1,90 @@
+body {
+  background-image: url(images/bg.jpg);
+}
+
+* {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.container{
+  padding: 40px;
+
+}
+.col{
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 200px;
+  gap: 20px;
+}
+.card1{
+  border: 5px solid #0d4a69d9;
+  border-radius: 10px;
+}
+.card1:hover{
+background-color: #086986;
+}
+
+.card-image {
+  left: 25%;
+  height: 100px;
+}
+h3{
+  color: #98fffd ;
+}
+h5{
+  color: #fff ;
+
+}
+label {
+  background: #fffffff5;
+  height: 40px;
+  width: 300px;
+  border-radius: 25px 0 0 25px;
+}
+
+.card {
+  background: #eee;
+  width: 17rem;
+  padding: 20px;
+  left: 10%;
+}
+
+
+.card:hover{
+  color: #3d2093;
+  background-color: #0ecbff;
+  transition: 0.5s;
+  transform: perspective(900px) translateY(-5px) rotateX(25deg) translateZ(0);
+
+
+}
+
+input{
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  transition: .5s;
+}
+input[type='submit']:hover{
+  color: #3d2093;
+  background-color: aqua;
+}
+input[type="submit"]{
+  left: -8px;
+  border-radius:  0 25px 25px 0;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  background: #0ecbff;
+}
+.delete{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.delete:hover{
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
